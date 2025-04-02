@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0 58px 0 94px;
     &__wrapper {
         display: flex;
         gap: 65px;
@@ -16,6 +17,7 @@
         color: #ffffff;
         font-weight: 600;
         padding-left: 0;
+        margin-bottom: 0;
         gap: 65px;
         /* Ensure no padding */
     }

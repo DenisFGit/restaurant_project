@@ -1,0 +1,168 @@
+@media (max-width:1440px) {
+    .footer {
+        &__wrapper {
+            gap: 30px;
+        }
+    }
+}
+@media (max-width:1300px) {
+    .nav {
+        &__list {
+            font-size: 18px;
+        }
+    }
+    .title {
+        &_h1 {
+            font-size: 80px;
+        }
+    }
+    .menu {
+        &__list {
+            gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .title {
+        font-size: 40px;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .nav {
+        &__wrapper {
+            gap: 40px;
+        }
+        &__list {
+            font-size: 18px;
+            gap: 40px;
+        }
+        &__logo {
+            width: 100%;
+            img {
+                width: 60px;
+                height: 100%;
+            }
+        }
+    }
+    .menu {
+        &__list {
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+    }
+    .wings {
+        &__wrapper {
+            column-gap: 70px;
+        }
+    }
+    .chicken {
+        &__wrapper {
+            column-gap: 70px;
+        }
+    }
+    .email {
+        padding-bottom: 200px;
+        &__form {
+            width: 600px;
+        }
+        // &__input {
+        //     width: 400px;
+        // }
+    }
+    .footer {
+        padding: 100px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: unset;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__desc {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        &__socials {
+            justify-content: center;
+        }
+        &__lists {
+            width: 100%;
+            justify-content: center;
+            gap: 100px;
+        }
+        &__about,
+        &__other,
+        &__services {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 35px;
+    }
+    .subtitle {
+        width: unset;
+        font-size: 20px;
+    }
+    .nav {
+        padding: 0 20px;
+        &__list {
+            gap: 30px;
+            font-size: 16px;
+        }
+    }
+    .wings {
+        &__wrapper {
+            grid-template-columns: minmax(150px, auto) minmax(200px, 573px);
+        }
+    }
+    .statistics {
+        padding-bottom: 100px;
+        &__list {
+            flex-wrap: wrap;
+        }
+        &__item {
+            padding: 0 15px;
+        }
+    }
+    .chicken {
+        &__wrapper {
+            grid-template-columns: minmax(200px, 573px) minmax(150px, auto);
+        }
+    }
+    .chef {
+        padding-bottom: 100px;
+        &__name {
+            font-size: 30px;
+            margin-top: 25px;
+        }
+        &__subtitle {
+            margin-top: 50px;
+        }
+    }
+    .email {
+        padding: 100px 0 150px 0;
+        &__form {
+            height: 50px;
+            width: 500px;
+        }
+        &__input {
+            &::placeholder {
+                font-size: 18px;
+            }
+        }
+        &__btn {
+            font-size: 18px;
+        }
+    }
+}

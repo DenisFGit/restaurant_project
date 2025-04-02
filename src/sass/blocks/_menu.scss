@@ -11,12 +11,18 @@
         // justify-content: space-between;
         gap: 90px;
         justify-content: center;
+        // flex-wrap: wrap;
     }
     &__item {
+        min-width: 150px;
         &-img {
             img {
                 display: block;
                 margin: 0 auto;
+                min-width: 150px;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
             }
         }
         &-title {
@@ -25,6 +31,7 @@
             color: #333333;
             font-weight: 700;
             text-align: center;
+            margin-top: 22px;
         }
         &-desc {
             width: 300px;
@@ -34,4 +41,6 @@
             text-align: center;
         }
     }
+
+
 }

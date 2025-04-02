@@ -8,11 +8,13 @@
         margin: 83px auto 0 auto;
         display: flex;
         justify-content: center;
+        height: 63px;
+        width: 770px;
         // width: 700px;
     }
     &__input {
-        width: 549px;
-        height: 63px;
+        width: 71%;
+        // height: 63px;
         border-radius: 4px;
         background-color: #ffffff;
         &::placeholder {
@@ -24,8 +26,8 @@
         }
     }
     &__btn {
-        width: 222px;
-        height: 63px;
+        width: 29%;
+        // height: 63px;
         border-radius: 4px;
         background-color: #333333;
         font-size: 25px;
