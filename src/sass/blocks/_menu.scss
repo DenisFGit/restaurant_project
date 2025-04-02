@@ -1,0 +1,37 @@
+.menu {
+    padding: 93px 0 104px 0;
+    background: url('../img/yellow_bg.png') center center / cover no-repeat;
+    &__subtitle {
+        margin: 50px auto 0 auto;
+        font-size: 25px;
+    }
+    &__list {
+        margin-top: 56px;
+        display: flex;
+        // justify-content: space-between;
+        gap: 90px;
+        justify-content: center;
+    }
+    &__item {
+        &-img {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &-title {
+            font-size: 32px;
+            text-transform: uppercase;
+            color: #333333;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-desc {
+            width: 300px;
+            font-size: 19px;
+            color: #333333;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+}

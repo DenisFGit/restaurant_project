@@ -1,0 +1,21 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/nav';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/menu';
+@import 'blocks/wings';
+@import 'blocks/statistics';
+@import 'blocks/chicken';
+@import 'blocks/chef';
+@import 'blocks/emial';
+@import 'blocks/footer';

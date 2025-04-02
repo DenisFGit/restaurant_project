@@ -1,0 +1,19 @@
+.wings {
+    padding: 63px 0 77px 0;
+    background: url('../img/wings_bg.png') center center / cover no-repeat;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 472px auto;
+        column-gap: 157px;
+        justify-content: center;
+    }
+    &__title {
+        margin-top: 185px;
+    }
+    &__subtitle {
+        margin-top: 58px;
+    }
+    &__button {
+        margin-top: 72px;
+    }
+}

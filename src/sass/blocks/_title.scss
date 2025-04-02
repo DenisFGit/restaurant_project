@@ -1,0 +1,25 @@
+.title {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    &_h1 {
+        font-size: 108px;
+        color: #ffffff;
+    }
+    &_white {
+        color: #ffffff;
+    }
+}
+
+.subtitle {
+    width: 820px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    &_black {
+        color: #333333;
+    }
+}

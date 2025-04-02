@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &__wrapper {
+        display: flex;
+        gap: 65px;
+    }
+
+    &__list {
+        display: flex;
+        list-style-type: none;
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 600;
+        padding-left: 0;
+        gap: 65px;
+        /* Ensure no padding */
+    }
+
+    &__search {
+        width: 30px;
+        height: 30px;
+    }
+}

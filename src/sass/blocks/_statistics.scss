@@ -1,0 +1,35 @@
+.statistics {
+    padding: 94px 0 151px 0;
+    background: url('../img/yellow_bg.png') center center / cover no-repeat;
+    &__subtitle {
+        margin: 48px auto 0 auto;
+        font-size: 25px;
+    }
+    &__list {
+        margin-top: 82px;
+        display: flex;
+        justify-content: center;
+        gap: 85px;
+    }
+    &__item {
+        width: 320px;
+        height: 320px;
+        border: 10px solid #333333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__num {
+        font-size: 75px;
+        color: #333333;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__name {
+        font-size: 33px;
+        text-transform: uppercase;
+        color: #333333;
+        font-weight: 700;
+        text-align: center;
+    }
+}

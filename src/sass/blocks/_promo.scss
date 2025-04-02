@@ -1,0 +1,14 @@
+.promo {
+    padding: 50px 0 228px 0;
+    background: url('../img/promo_bg.png') center center / cover no-repeat;
+    min-height: 796px;
+    &__title {
+        margin-top: 150px;
+    }
+    &__subtitle {
+        margin: 45px auto 0 auto;
+    }
+    &__button {
+        margin: 59px auto 0 auto;
+    }
+}

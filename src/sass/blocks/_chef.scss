@@ -1,0 +1,21 @@
+.chef {
+    padding: 91px 0 196px 0;
+    background: url('../img/blur_bg.png') center center / cover no-repeat;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin: 86px auto 0 auto;
+        font-size: 37px;
+        width: auto;
+    }
+    &__name {
+        margin-top: 53px;
+        font-size: 45px;
+        color: #333333;
+        font-weight: 700;
+        text-align: center;
+    }
+
+}
