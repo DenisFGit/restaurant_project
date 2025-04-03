@@ -21,11 +21,19 @@
             gap: 50px;
         }
     }
+    .slider {
+        &__wrapper {
+            img {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1140px) {
     .title {
-        font-size: 40px;
+        font-size: 60px;
     }
     .subtitle {
         font-size: 25px;
@@ -50,6 +58,14 @@
         &__list {
             gap: 50px;
             flex-wrap: wrap;
+        }
+        &__item {
+            width: 300px;
+            &-img {
+                img {
+                    width: 100%;
+                }
+            }
         }
     }
     .wings {
@@ -104,11 +120,25 @@
             font-size: 20px;
         }
     }
+    .slider {
+        &__wrapper {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
+    .button {
+        width: 220px;
+        min-height: unset;
+        height: 45px;
+        font-size: 20px;
+    }
     .title {
-        font-size: 35px;
+        font-size: 40px;
     }
     .subtitle {
         width: unset;
@@ -121,18 +151,34 @@
             font-size: 16px;
         }
     }
+    .promo {
+        min-height: unset;
+        padding-bottom: 140px;
+    }
     .wings {
         &__wrapper {
             grid-template-columns: minmax(150px, auto) minmax(200px, 573px);
         }
     }
     .statistics {
+        padding-top: 60px;
         padding-bottom: 100px;
         &__list {
+            margin-top: 50px;
             flex-wrap: wrap;
+            gap: 40px;
         }
         &__item {
+            height: 200px;
+            width: 200px;
             padding: 0 15px;
+            border: 5px solid #333;
+        }
+        &__num {
+            font-size: 40px;
+        }
+        &__name {
+            font-size: 20px;
         }
     }
     .chicken {
@@ -163,6 +209,133 @@
         }
         &__btn {
             font-size: 18px;
+        }
+    }
+    .slider {
+        &__wrapper {
+            height: 200px;
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+    .menu {
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__list {
+            gap: 30px;
+            margin-top: 40px;
+        }
+        &__item {
+            &-img {
+                img {
+                    width: 100%;
+                }
+            }
+            &-title {
+                font-size: 25px;
+                margin-top: 15px;
+            }
+            &-desc {
+                font-size: 18px;
+            }
+        }
+    }
+    .footer {
+        &__title {
+            font-size: 25px;
+        }
+        &__desc {
+            font-size: 18px;
+        }
+        &__list {
+            &-name {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+        }
+        &__about,
+        &__services,
+        &__others {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .nav {
+
+        &__list {
+            gap: 20px;
+            font-size: 14px;
+        }
+        &__search {
+            width: 20px;
+            height: 20px;
+        }
+        &__wrapper {
+            gap: 20px;
+        }
+        &__logo {
+            width: unset;
+            img {
+                width: 50px;
+            }
+        }
+    }
+    .wings {
+        &__title {
+            margin-top: 0;
+        }
+        &__subtitle {
+            margin-top: 40px;
+        }
+        &__wrapper {
+            grid-template-rows: 400px;
+            column-gap: 40px;
+        }
+        &__button {
+            margin-top: 48px;
+            width: 150px;
+            font-size: 18px;
+        }
+    }
+    .chicken {
+        &__title {
+            margin-top: 0;
+        }
+        &__subtitle {
+            margin-top: 40px;
+        }
+        &__wrapper {
+            grid-template-rows: 400px;
+            column-gap: 40px;
+        }
+        &__button {
+            margin-top: 48px;
+            width: 150px;
+            font-size: 18px;
+        }
+    }
+    .chef {
+        img {
+            width: 200px;
+        }
+    }
+    .email {
+        &__form {
+            width: 400px;
+        }
+        &__btn {
+            font-size: 16px;
         }
     }
 }
