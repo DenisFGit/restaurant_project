@@ -33,4 +33,13 @@ $(document).ready(function () {
 
     // Run again whenever Slick updates
     $('.slider__wrapper').on('afterChange', updateArrows);
+
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav_media');
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav_active');
+        burger.classList.toggle('burger_active');
+    });
+    console.log(burger);
+    console.log(nav);
 });

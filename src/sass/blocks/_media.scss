@@ -291,6 +291,9 @@
             }
         }
     }
+    .promo {
+        padding-top: 20px;
+    }
     .wings {
         &__title {
             margin-top: 0;
@@ -336,6 +339,200 @@
         }
         &__btn {
             font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        display: none;
+        align-items: flex-start;
+        // position: relative;
+        &__wrapper {
+            flex-direction: column;
+            gap: 10px;
+            padding: 20px 0;
+        }
+        &__list {
+            flex-direction: column;
+            gap: 10px;
+            li {
+                text-align: center;
+            }
+        }
+        &__search {
+            width: auto;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &_media {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 70%;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, .8);
+            transform: translateX(-100%);
+            transition: 0.6s all;
+        }
+        &_active {
+            transform: translateX(0%);
+        }
+    }
+    .promo {
+        position: relative;
+        padding-top: 50px;
+        &__title {
+            margin-top: 60px;
+        }
+    }
+    .burger {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        top: 15px;
+        right: 15px;
+        span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            transition: 0.6s all;
+        }
+    }
+    .burger_active {
+        span {
+            &:nth-child(1) {
+                transform: translateY(5px) rotate(45deg);
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                transform: translateY(-3px) rotate(-45deg);
+            }
+        }
+    }
+    .menu {
+        &__item {
+            width: 230px;
+        }
+    }
+    .slider {
+        padding: 40px 0;
+        &__wrapper {
+            margin-top: 20px;
+        }
+        img {
+            width: 170px;
+            height: 170px;
+        }
+    }
+    .slick {
+        &-prev,
+        &-next {
+            padding: 0 10px;
+            width: 100px;
+            height: 50px;
+            font-size: 30px;
+        }
+    }
+    // .slick {
+    //     &-prev,
+    //     &-next {
+    //         width: 60px;
+    //         height: 45px;
+    //         font-size: 20px;
+    //     }
+    // }
+    .wings {
+        &__wrapper {
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            row-gap: 40px;
+
+            &_info {
+                order: 1
+            }
+        }
+        &__img {
+            order: 2;
+        }
+    }
+    .chicken {
+        &__wrapper {
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            row-gap: 40px;
+
+        }
+    }
+    .email {
+        padding: 50px 0 90px 0;
+        &__subtitle {
+            margin: 40px auto 0 auto;
+        }
+        &__form {
+            width: 240px;
+            height: unset;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            margin: 50px auto 0 auto;
+        }
+        &__input {
+            width: 100%;
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+        &__btn {
+            width: 150px;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+    }
+    .footer {
+        padding: 50px 0;
+        &__title {
+            font-size: 18px;
+        }
+        &__desc {
+            font-size: 14px;
+        }
+        &__lists {
+            flex-direction: column;
+            gap: 30px;
+        }
+        &__socials {
+            font-size: 20px;
+            li {
+                width: 35px;
+                height: 35px;
+            }
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+        &__list {
+            &-name {
+                font-size: 18px;
+            }
+        }
+        &__about,
+        &__services,
+        &__other {
+            font-size: 14px;
+            line-height: 30px;
+            text-align: center;
         }
     }
 }
