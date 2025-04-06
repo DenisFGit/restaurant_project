@@ -355,7 +355,8 @@
         }
         &__list {
             flex-direction: column;
-            gap: 10px;
+            font-size: 16px;
+            gap: 25px;
             li {
                 text-align: center;
             }
@@ -388,7 +389,7 @@
         position: relative;
         padding-top: 50px;
         &__title {
-            margin-top: 60px;
+            margin-top: 30px;
         }
     }
     .burger {

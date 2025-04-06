@@ -31,5 +31,6 @@
 .nav {
     &_media {
         display: none;
+        z-index: 4;
     }
 }
