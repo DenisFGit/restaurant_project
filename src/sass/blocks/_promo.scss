@@ -6,6 +6,9 @@
     position: relative;
     &__title {
         margin-top: 150px;
+        animation-name: manifest;
+        animation-duration: 1s;
+        animation-timing-function: ease;
     }
     &__subtitle {
         margin: 45px auto 0 auto;

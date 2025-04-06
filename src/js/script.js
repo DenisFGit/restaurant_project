@@ -42,4 +42,17 @@ $(document).ready(function () {
     });
     console.log(burger);
     console.log(nav);
+
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    });
+
+    document.querySelectorAll('.menu__list').forEach(el => {
+        observer.observe(el);
+    });
 });
