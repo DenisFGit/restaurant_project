@@ -53,3 +53,12 @@
         opacity: 1
     }
 }
+
+@keyframes blur_out {
+    from {
+        filter: blur(10px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
