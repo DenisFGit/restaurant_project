@@ -29,9 +29,8 @@ $(document).ready(function () {
         }
     }
 
-    updateArrows(); // Run once on load
+    updateArrows();
 
-    // Run again whenever Slick updates
     $('.slider__wrapper').on('afterChange', updateArrows);
 
     const burger = document.querySelector('.burger');
@@ -40,9 +39,6 @@ $(document).ready(function () {
         nav.classList.toggle('nav_active');
         burger.classList.toggle('burger_active');
     });
-    console.log(burger);
-    console.log(nav);
-
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

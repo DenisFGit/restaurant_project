@@ -35,5 +35,9 @@
         color: #ffffff;
         font-weight: 700;
         text-align: center;
+        &:hover {
+            background-color: #646363;
+            transition: 0.2s all;
+        }
     }
 }

@@ -19,12 +19,30 @@
         padding-left: 0;
         margin-bottom: 0;
         gap: 65px;
-        /* Ensure no padding */
+        li {
+            &:hover {
+                transition: 0.3s all;
+                color: #f6d365;
+                cursor: pointer;
+            }
+        }
     }
 
     &__search {
         width: 30px;
         height: 30px;
+        &:hover {
+            svg path {
+                fill: #f6d365;
+            }
+        }
+        svg path {
+            fill: #ffff;
+            transition: fill 0.3s ease;
+        }
+        // img {
+        //     fill: #f6d365;
+        // }
     }
 }
 

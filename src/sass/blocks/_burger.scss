@@ -1,0 +1,34 @@
+.burger {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    flex-direction: column;
+    gap: 5px;
+    top: 15px;
+    right: 15px;
+    span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        transition: 0.6s all;
+    }
+    &_active {
+        span {
+            &:nth-child(1) {
+                transform: translateY(5px) rotate(45deg);
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                transform: translateY(-3px) rotate(-45deg);
+            }
+        }
+        &:hover {
+            span {
+                background-color: #f6d365;
+            }
+        }
+    }
+}
