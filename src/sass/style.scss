@@ -8,6 +8,10 @@
     padding: 0 9%;
 }
 
+body {
+    position: relative;
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/nav';
@@ -18,10 +22,11 @@
 @import 'blocks/statistics';
 @import 'blocks/chicken';
 @import 'blocks/chef';
-@import 'blocks/emial';
+@import 'blocks/email';
 @import 'blocks/footer';
 @import 'blocks/slider';
 @import 'blocks/animation';
 @import 'blocks/burger';
+@import 'blocks/modal';
 
 @import 'blocks/media';

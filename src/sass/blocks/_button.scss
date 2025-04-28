@@ -16,4 +16,14 @@
         background-color: #fff700;
         transition: 0.3s all;
     }
+    &_modal {
+        width: auto;
+        min-height: auto;
+        background-color: #333333;
+        color: #f6d365;
+        font-size: 20px;
+        &:hover {
+            background-color: #5a5710;
+        }
+    }
 }
